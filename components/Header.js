@@ -47,7 +47,7 @@ function Header({placeholder}) {
                                            
                 /> */}
 
-                <h1 className="px-4 text-black font-medium text-lg">
+                <h1 className={!navbar ? "px-4 text-white font-medium text-lg": "px-4 text-black font-medium text-lg" }>
                     LOGO
                 </h1>
             </div>
