@@ -10,7 +10,7 @@ function Banner() {
              <Header />
             <Image src={img} layout="fill" objectFit='cover' />
 
-            <div className='absolute top-1/2 w-[600px] text-center left-1/3'>
+            <div className='absolute top-1/2 w-[600px] text-center left-[30%]'>
                 
                 <div className='flex items-center border-2 rounded-full py-2 md:border md:shadow-sm bg-white '>
 
